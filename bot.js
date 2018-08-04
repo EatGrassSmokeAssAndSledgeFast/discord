@@ -3,11 +3,13 @@ const Discord = require("discord.js");
 const bot = new Discord.Client()
 
 const TOKEN = "NDU3ODEzODc2NDA3NTMzNTY5.DkaHDw.m0oYzWbTwgjhTePylM_VZkQJPkk";
+
 const PREFIX = "///"
 
 bot.on("ready", () => {
     console.log("Bot's ready!");
     bot.user.setActivity("that game");
+    bot.setYoutubeKey("AIzaSyBN2KpLN4UhIRFTCAzMcPqvD3ScaVqbJJQ");
 
 });
 
