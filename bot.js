@@ -50,7 +50,7 @@ bot.on("ready", () => {
         message.channel.send("No u");
         break;
         case "mike" :
-          message.channel.send("He was an active and a fun user, he will always be remembered, 1 pray = 1 chance to get him back :pray:");
+          message.channel.send("Between you and me and keep this a secret, I think my creator was never straight but rather on that taji gay porn stuff fam, That's usually something i'd say but hey since he's gone i can talk shit about him no? :wink:");
           break;
       case "xd" :
           message.channel.send("What an xd'able remark -Grace Merci 2K18");
@@ -73,10 +73,10 @@ bot.on("ready", () => {
       case "perica":
           message.channel.send("https://cdn.discordapp.com/attachments/402871667891765250/474288770037055498/8d1afae064b5d6d97845bb9dfba1af14.png just an average conversation in ck -Perica 2K18");
           break;
-      case "damboozole":
+      case "bambii":
           message.channel.send("I put my chocolate in the oven and it froze -Bambii Or Margaux 2K18");
           break;
-      case "furryvince":
+      case "vince":
           message.channel.send("I nearly got beaned from a serv bc I posted a pic of a dead cat underwater -Vince 2K18 **Jesus will every good quote be in 2018? XD**");
           break;
       case "turbo":
@@ -102,10 +102,6 @@ message.channel.send(`${banmember.user.tag}, ***No More Of Your Weird Work, Get 
         case "woah":
            message.channel.send("there laddie, you can't mcree up here friend.");
            break;
-        case "pic":
-        message.channel.send('', {files: ["https://cdn.discordapp.com/attachments/457877400211161127/457980843458035738/29598393_205896680007211_8021260662177985561_n.jpg"]})  
-        break;
-
         case "rolepresist":
         if (!message.guild.members.get("457813876407533569").hasPermission("MANAGE_ROLES")) return message.reply("I do not have permission to manage other user's roles.")
         if (!message.member.hasPermission("MANAGE_ROLES")) return message.reply("You don't have permission to use this command.")
