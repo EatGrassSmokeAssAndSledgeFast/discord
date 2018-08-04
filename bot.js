@@ -150,7 +150,7 @@ case "mute":
 
   let reason = args.slice(1).join(' ');
   let member = message.mentions.members.first();
-  let modlog = message.guild.channels.find('name', 'mod-log');
+  let modlog = message.guild.channels.find('name', 'logs');
   let muteRole = message.guild.roles.find('name', 'Muted');
   if (!modlog) return message.reply('I cannot find a mod-log channel').catch(console.error);
   if (!muteRole) return message.reply('I cannot find a mute role').catch(console.error);
