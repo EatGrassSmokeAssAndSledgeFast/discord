@@ -182,6 +182,7 @@ exports.conf = {
   enabled: true,
   guildOnly: false,
   aliases: ['unmute']
+    
 };
 
 
