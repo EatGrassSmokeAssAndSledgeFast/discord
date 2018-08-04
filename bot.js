@@ -7,7 +7,7 @@ const PREFIX = "///"
 
 bot.on("ready", () => {
     console.log("Bot's ready!");
-    bot.user.setActivity("SFM is my fav gaming genre.");
+    bot.user.setActivity("that game");
 
 });
 
@@ -79,8 +79,8 @@ bot.on("ready", () => {
       case "furryvince":
           message.channel.send("I nearly got beaned from a serv bc I posted a pic of a dead cat underwater -Vince 2K18 **Jesus will every good quote be in 2018? XD**");
           break;
-      case "trubo":
-          message.channel.send("some idiot idk he wanted me to say he's cool xdddd  **sorry tubo luv u xoxoxo**");
+      case "turbo":
+          message.channel.send("some idiot idk he wanted me to say he's cool xddd **sorry tubo luv u xoxoxo**");
           break;          
            case "ban" :
 if (!message.guild.members.get("457813876407533569").hasPermission("BAN_MEMBERS")) return message.reply("I do not have permission to ban other members.")
