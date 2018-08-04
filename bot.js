@@ -85,6 +85,9 @@ bot.on("ready", () => {
       case "#00057e":
           message.channel.send("Best Colour Ever **Made By Zack 2.0**");
           break;
+      case "RiffRaff":
+          message.channel.send("My main goal is to blow up, then act like I dont know no body. - Riff Raff (donnu what year)");
+          break;
            case "ban" :
 if (!message.guild.members.get("457813876407533569").hasPermission("BAN_MEMBERS")) return message.reply("I do not have permission to ban other members.")
 if (!message.member.hasPermission("BAN_MEMBERS")) return message.reply("You do not have permission to ban other members.")
