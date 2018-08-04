@@ -9,7 +9,6 @@ const PREFIX = "///"
 bot.on("ready", () => {
     console.log("Bot's ready!");
     bot.user.setActivity("that game");
-    bot.setYoutubeKey("AIzaSyBN2KpLN4UhIRFTCAzMcPqvD3ScaVqbJJQ");
 
 });
 
