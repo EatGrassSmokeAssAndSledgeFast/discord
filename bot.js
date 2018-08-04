@@ -79,6 +79,9 @@ bot.on("ready", () => {
       case "furryvince":
           message.channel.send("I nearly got beaned from a serv bc I posted a pic of a dead cat underwater -Vince 2K18 **Jesus will every good quote be in 2018? XD**");
           break;
+      case "trubo":
+          message.channel.send("some idiot idk he wanted me to say he's cool xdddd  **sorry tubo luv u xoxoxo**");
+          break;          
            case "ban" :
 if (!message.guild.members.get("457813876407533569").hasPermission("BAN_MEMBERS")) return message.reply("I do not have permission to ban other members.")
 if (!message.member.hasPermission("BAN_MEMBERS")) return message.reply("You do not have permission to ban other members.")
