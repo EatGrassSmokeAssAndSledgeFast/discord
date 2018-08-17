@@ -4,7 +4,7 @@ const Discord = require("discord.js");
 
 const bot = new Discord.Client()
 
-const TOKEN = "NDU3ODEzODc2NDA3NTMzNTY5.Dk8xPg.7PX6fxMO0qVucL1lcumxe0ZwwQQ"
+const TOKEN = "NDU3ODEzODc2NDA3NTMzNTY5.Dljjpw.H16OFajNevsVv7uVg0IBxLWzCNs"
 
 const PREFIX = "///"
 
